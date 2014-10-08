@@ -1,50 +1,121 @@
 
 <!doctype html>
-<html>
-<head>
-	<meta charset="utf-8">
-	<title>Framework Test page</title>
-	<link rel="stylesheet" href="css/main.css">
-	<link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
-</head>
-<body>
-
-	<div class="grid">
-		<div class="row">
-			<div class="col-6"><img src="http://placehold.it/100x100"></div>
-			<div style="text-align: right;" class="col-6">
-				<h1>Paul Reiners</h1>
-				<h3>Software Developer</h3>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Paul Reiners' Portfolio</title>
+		<link href='http://fonts.googleapis.com/css?family=Lato:100,300,600' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="css/bootstrap.css"> 
+		<link rel="stylesheet" href="css/styles.css"> 
+		<script type="text/javascript" src="js/jquery-2.1.1.min.js"></script> 
+		<script src="js/bootstrap.min.js"></script>
+	</head>
+	<body>
+		<div class="container">
+			<div class="row text-right text-uppercase">
+				<div class="col-md-6">
+					<img class="img-responsive title-logo" src="images/logo.png" alt="lambda logo">
+				</div>
+				<div class="col-md-6">
+					<h1 class="title-super text-thin">Paul Reiners</h1>
+					<h4>Software Developer</h4>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12">
+					<hr>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12">
+					<img class="img-responsive" src="images/puppy1.jpg">
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12">
+					<h2 class="text-muted">Featured Work</h2>
+				</div>
+			</div>
+			<div class="row text-center">
+				<div class="col-md-4">
+					<img class="img-responsive" src="images/puppy2.jpg" 
+						alt="udacity-intro-hadoop-mapreduce" data-toggle="modal"
+						data-target="#udacity-intro-hadoop-mapreduce-project"</img>
+					<h3 class="text-uppercase text-project">udacity-intro-hadoop-mapreduce</h3>
+					<p><a href="https://github.com/paul-reiners/udacity-intro-hadoop-mapreduce">https://github.com/paul-reiners/udacity-intro-hadoop-mapreduce</a></p>
+				</div>
+				<div class="col-md-4">
+					<img class="img-responsive" src="images/puppy2.jpg" alt="kaggle-the-analytics-edge" data-toggle="modal"
+						data-target="#kaggle-the-analytics-edge-project"</img>
+					<h3 class="text-uppercase text-project">kaggle-the-analytics-edge</h3>
+					<p><a href="https://github.com/paul-reiners/kaggle-the-analytics-edge">https://github.com/paul-reiners/kaggle-the-analytics-edge</a></p>
+				</div>
+				<div class="col-md-4">
+					<img class="img-responsive" src="images/puppy2.jpg" alt="quadrillionth-decimal-place" data-toggle="modal"
+						data-target="#quadrillionth-decimal-place-project"</img>
+					<h3 class="text-uppercase text-project">quadrillionth-decimal-place</h3>
+					<p><a href="https://github.com/paul-reiners/quadrillionth-decimal-place">https://github.com/paul-reiners/quadrillionth-decimal-place</a></p>
+				</div>
 			</div>
 		</div>
-		<div class="row">
-			<div class="col-12">
-				<img src="http://placehold.it/985x350">
-			</div>
+		<!-- Modal -->
+		<div class="modal fade" id="udacity-intro-hadoop-mapreduce-project" 
+			 tabindex="-1" role="dialog" aria-labelledby="myModalLabel" 
+			 aria-hidden="true">
+		  <div class="modal-dialog">
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <h4 class="modal-title" id="myModalLabel">udacity-intro-hadoop-mapreduce</h4>
+		      </div>
+		      <div class="modal-body">
+		        <img class="img-responsive" src="images/puppy2.jpg">
+		        Final project for Udacity Introduction to Hadoop and MapReduce course.
+		      </div>
+		      <div class="modal-footer">
+		        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+		      </div>
+		    </div>
+		  </div>
 		</div>
-		<div class="row">
-			<div class="col-12">
-				<h2>Featured Work</h2>
-			</div>
+		<!-- Modal -->
+		<div class="modal fade" id="kaggle-the-analytics-edge-project" 
+			 tabindex="-1" role="dialog" aria-labelledby="myModalLabel" 
+			 aria-hidden="true">
+		  <div class="modal-dialog">
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <h4 class="modal-title" id="myModalLabel">kaggle-the-analytics-edge</h4>
+		      </div>
+		      <div class="modal-body">
+		        <img class="img-responsive" src="images/puppy2.jpg">
+		        Code for private Kaggle competition held as part of MITx : 15.071x The Analytics Edge course.  Illustrates my knowledge of data analytics techniques including random forests and logistic regression.  Written in R.
+		      </div>
+		      <div class="modal-footer">
+		        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+		      </div>
+		    </div>
+		  </div>
 		</div>
-
-		<div class="row">
-			<div class="col-4">
-				<img src="http://placehold.it/300x200"</img>
-				<h3>udacity-intro-hadoop-mapreduce</h3>
-				<p><a href="http://paul-reiners.github.io/udacity-intro-hadoop-mapreduce/">Link to project</a></p>
-			</div>
-			<div class="col-4">
-				<img src="http://placehold.it/300x200"</img>
-				<h3>kaggle-the-analytics-edge</h3>
-				<p><a href="http://paul-reiners.github.io/kaggle-the-analytics-edge/">Link to project</a></p>
-			</div>
-			<div class="col-4">
-				<img src="http://placehold.it/300x200"</img>
-				<h3>quadrillionth-decimal-place</h3>
-				<p><a href="http://paul-reiners.github.io/quadrillionth-decimal-place/">Link to project</a></p>
-			</div>
+		<!-- Modal -->
+		<div class="modal fade" id="quadrillionth-decimal-place-project" 
+			 tabindex="-1" role="dialog" aria-labelledby="myModalLabel" 
+			 aria-hidden="true">
+		  <div class="modal-dialog">
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <h4 class="modal-title" id="myModalLabel">quadrillionth-decimal-place</h4>
+		      </div>
+		      <div class="modal-body">
+		        <img class="img-responsive" src="images/puppy2.jpg">
+		        Implementation (in C) of a Method of Bailey, Borwein, and Plouffe.
+		      </div>
+		      <div class="modal-footer">
+		        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+		      </div>
+		    </div>
+		  </div>
 		</div>
-	</div>
-</body>
+	</body>
 </html>
