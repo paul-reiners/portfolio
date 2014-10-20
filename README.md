@@ -3,4 +3,4 @@ Portfolio
 Paul Reiners
 ------------
 
-This is a portfolio of some of my best projects.
+A responsive website that displays images, descriptions and links to each of my portfolio projects.
