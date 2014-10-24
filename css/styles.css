@@ -1,7 +1,7 @@
 body {
-	font-family: 'Lato', sans-serif;
-	color: #747704;
-	font-weight: 300;
+  font-family: 'Lato', sans-serif;
+  color: #747704;
+  font-weight: 300;
 }
 
 hr {
@@ -9,22 +9,22 @@ hr {
 }
 
 .text-muted {
-	color: #BCBBBB;
+  color: #BCBBBB;
 }
 
 .text-thin {
-	font-weight: 100;
+  font-weight: 100;
 }
 
 .title-super {
-	font-size: 60px;
+  font-size: 60px;
 }
 
 .title-logo {
-	margin-top: 20px;
+  margin-top: 20px;
 }
 
 
 .text-project {
-	font-weight: 700;
+  font-weight: 700;
 }
