@@ -27,3 +27,10 @@ hr {
 .text-project {
   font-weight: 700;
 }
+
+/** Mobile **/
+@media only screen and (max-width: 992px), only screen and (max-device-width: 992px) {
+    .lambda {
+        display: none;
+    }
+}
